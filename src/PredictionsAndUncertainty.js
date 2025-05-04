@@ -182,7 +182,7 @@ class PredictionsAndUncertainty extends Component {
 
                         <div>These topics have each seen significant progress in recent years, and continue to be 
                         active areas of research. At the same time, uncertainty quantification is of great practical 
-                        importance in settings where reliability is essential. This workshop would come at an opportune 
+                        importance in settings where reliability is essential. This workshop comes at an opportune 
                         moment to connect these separate topics, and improve the foundations of predictions and 
                         uncertainty. </div>
                     </div>
