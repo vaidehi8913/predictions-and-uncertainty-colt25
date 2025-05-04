@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/predictions-and-uncertainty-colt25/static/css/main.f855e6bc.css",
-    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.30f8a857.js",
+    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.a99dada9.js",
     "static/js/453.23eef986.chunk.js": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js",
     "static/media/VS-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/VS-profile.f6c7ca18d6236af4d509.jpg",
     "static/media/profile-alt.png": "/predictions-and-uncertainty-colt25/static/media/profile-alt.6d463c8cc47a3f93dd45.png",
@@ -9,11 +9,11 @@
     "static/media/logo.svg": "/predictions-and-uncertainty-colt25/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/predictions-and-uncertainty-colt25/index.html",
     "main.f855e6bc.css.map": "/predictions-and-uncertainty-colt25/static/css/main.f855e6bc.css.map",
-    "main.30f8a857.js.map": "/predictions-and-uncertainty-colt25/static/js/main.30f8a857.js.map",
+    "main.a99dada9.js.map": "/predictions-and-uncertainty-colt25/static/js/main.a99dada9.js.map",
     "453.23eef986.chunk.js.map": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.30f8a857.js"
+    "static/js/main.a99dada9.js"
   ]
 }
