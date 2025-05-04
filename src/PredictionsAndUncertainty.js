@@ -27,6 +27,8 @@ class Person extends Component {
         var imageStyle = {
             width: "100px",
             height: "100px",
+            // maxWidth: "100px",
+            // maxHeight: "100px",
             borderRadius: "50%"
         };
 
@@ -63,7 +65,27 @@ class PredictionsAndUncertainty extends Component {
     constructor(props){
         super(props);
 
-        this.state = {};
+        this.state = {
+            isDesktop: false 
+        }
+
+        this.updatePredicate = this.updatePredicate.bind(this);
+    }
+
+    componentDidMount() {
+        this.updatePredicate();
+        window.addEventListener("resize", this.updatePredicate);
+    }
+    
+    componentWillUnmount() {
+        window.removeEventListener("resize", this.updatePredicate);
+    }
+    
+    updatePredicate() {
+        this.setState({ isDesktop: window.innerWidth > 850 });
+        // console.log("new width: " + window.innerWidth );
+        // console.log("what? " + window.innerWidth > 500);
+        // console.log("isDesktop: " + this.state.isDesktop);
     }
 
     render() {
@@ -73,8 +95,9 @@ class PredictionsAndUncertainty extends Component {
             flexDirection: "column",
             justifyContent: "left",
             gap: "30px",
-            marginTop: "50px",
-            marginLeft: "50px"
+            marginTop: this.state.isDesktop ? "50px" : "10px",
+            marginLeft: this.state.isDesktop ? "50px" : "10px",
+            marginRight: this.state.isDesktop ? "50px" : "10px"
         };
 
         var infoBlockStyle = {
