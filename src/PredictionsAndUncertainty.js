@@ -53,6 +53,10 @@ class Person extends Component {
     }
 }
 
+Person.defaultProps = {
+    img: require("./profile-alt.png")
+};
+
 
 class PredictionsAndUncertainty extends Component {
 
@@ -106,6 +110,9 @@ class PredictionsAndUncertainty extends Component {
 
         var altImage = require("./profile-alt.png");
 
+        var AVimage = require("./AV-profile.jpg");
+        var VSimage = require("./VS-profile.jpg");
+
         return (
             <div style={topLevelWrapperStyle}>
                 
@@ -123,7 +130,7 @@ class PredictionsAndUncertainty extends Component {
                     <div style={textStyle}>
                         <div><b>Overview</b></div>
 
-                        <div>Here is what we think the workshop will be about, though it is impossible to know for sure.  
+                        <div>{/*Here is what we think the workshop will be about, though it is impossible to know for sure.*/}  
                         Predictions from machine learning systems are increasingly being used as inputs to 
                         downstream algorithms and decision-making tasks. However, these predictions can be 
                         unreliable, and often suffer from biases or overconfidence, highlighting the need 
@@ -184,7 +191,6 @@ class PredictionsAndUncertainty extends Component {
                     <Person personName="Jessica Hullman"
                             homepage="http://users.eecs.northwestern.edu/~jhullman/"
                             affiliation="Northwestern University"
-                            img={altImage}
                             bio="Jessica is Ginni Rometty Professor of Computer Science and a Fellow at the Institute for Policy Research 
                             at Northwestern University. Her research focuses on decision-making from data, drawing on rational models 
                             of inference and spanning topics like inferential and predictive uncertainty quantification, AI-assisted 
@@ -193,7 +199,7 @@ class PredictionsAndUncertainty extends Component {
                     <Person personName="Vaidehi Srinivas"
                             homepage="https://vaidehi8913.github.io/"
                             affiliation="Northwestern University"
-                            img={altImage}
+                            img={VSimage}
                             bio="Vaidehi is a 4th year PhD student in Computer Science at Northwestern University.  She has been working on 
                             problems on predictions and uncertainty including work in conformal prediction in high-dimensional and 
                             online settings, and in algorithms with predictions." />
@@ -201,12 +207,10 @@ class PredictionsAndUncertainty extends Component {
                     <Person personName="Aravindan Vijayaraghavan"
                             homepage="https://users.cs.northwestern.edu/~aravindv/" 
                             affiliation="Northwestern University" 
-                            img={altImage}
+                            img={AVimage}
                             bio="Aravindan is an Associate Professor of Computer Science, and (by courtesy) Industrial Engineering and 
-                            Management Sciences at Northwestern University. He also co-directs the NSF Institute for Data, Econometrics,
-                            Algorithms and Learning (IDEAL). His research interests are broadly in the theory of algorithms and machine 
-                            learning, and often uses beyond worst-case paradigms to provide algorithmic guarantees for challenging 
-                            algorithmic problems involving high-dimensional data. " />
+                            Management Sciences at Northwestern University. His research interests are broadly in the theory of algorithms 
+                            and machine learning." />
 
                 </div>
 
