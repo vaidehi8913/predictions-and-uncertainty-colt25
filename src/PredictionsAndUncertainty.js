@@ -135,6 +135,7 @@ class PredictionsAndUncertainty extends Component {
 
         var AVimage = require("./AV-profile.jpg");
         var VSimage = require("./VS-profile.jpg");
+        var JHimage = require("./JH-profile.jpg");
 
         return (
             <div style={topLevelWrapperStyle}>
@@ -214,6 +215,7 @@ class PredictionsAndUncertainty extends Component {
                     <Person personName="Jessica Hullman"
                             homepage="http://users.eecs.northwestern.edu/~jhullman/"
                             affiliation="Northwestern University"
+                            img={JHimage}
                             bio="Jessica is Ginni Rometty Professor of Computer Science and a Fellow at the Institute for Policy Research 
                             at Northwestern University. Her research focuses on decision-making from data, drawing on rational models 
                             of inference and spanning topics like inferential and predictive uncertainty quantification, AI-assisted 
