@@ -92,6 +92,9 @@ class PredictionsAndUncertainty extends Component {
 
         var lightWatermelonGreen = "#75b855";
         var lightWatermelonRed = "#db6161";
+        var darkWatermelonGreen = "#157241";
+        var darkWatermelonRed = "#ad3838";
+        var watermelonWhite = "#f9f6f4";
 
         var gradientBox = {
             // marginTop: this.state.isDesktop ? "50px" : "10px",
@@ -111,7 +114,8 @@ class PredictionsAndUncertainty extends Component {
             marginRight: this.state.isDesktop ? "50px" : "10px",
             // marginBottom: this.state.isDesktop ? "50px" : "10px"
             // padding: this.state.isDesktop ? "50px" : "10px", 
-            maxWidth: "750px"
+            maxWidth: "750px",
+            background: watermelonWhite
         };
 
         var topLevelWrapperStyle = {
@@ -121,8 +125,7 @@ class PredictionsAndUncertainty extends Component {
             gap: "30px",
             // marginTop: this.state.isDesktop ? "50px" : "10px",
             marginLeft: this.state.isDesktop ? "100px" : "10px",
-            marginRight: this.state.isDesktop ? "100px" : "10px",
-            background: '#FFFFFF'
+            marginRight: this.state.isDesktop ? "100px" : "10px"
         };
 
         var infoBlockStyle = {
