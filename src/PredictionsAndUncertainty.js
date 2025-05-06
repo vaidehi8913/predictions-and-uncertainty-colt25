@@ -90,11 +90,11 @@ class PredictionsAndUncertainty extends Component {
 
     render() {
 
-        var lightWatermelonGreen = "#75b855";
-        var lightWatermelonRed = "#db6161";
-        var darkWatermelonGreen = "#157241";
-        var darkWatermelonRed = "#ad3838";
-        var watermelonWhite = "#f9f6f4";
+        var lightGreen = "#75b855";
+        var lightRed = "#db6161";
+        var darkGreen = "#157241";
+        var darkRed = "#ad3838";
+        var backgroundWhite = "#f9f6f4";
 
         var gradientBox = {
             // marginTop: this.state.isDesktop ? "50px" : "10px",
@@ -115,7 +115,7 @@ class PredictionsAndUncertainty extends Component {
             // marginBottom: this.state.isDesktop ? "50px" : "10px"
             // padding: this.state.isDesktop ? "50px" : "10px", 
             maxWidth: "750px",
-            background: watermelonWhite
+            background: backgroundWhite
         };
 
         var topLevelWrapperStyle = {
@@ -178,7 +178,7 @@ class PredictionsAndUncertainty extends Component {
 
                 <div style={smallSpacerStyle}/>
                 
-                <div style={titleStyle}><b>Workshop on <font color={lightWatermelonGreen}>Predictions</font> and <font color={lightWatermelonRed}>Uncertainty</font></b></div>
+                <div style={titleStyle}><b>Workshop on <font color={lightGreen}>Predictions</font> and <font color={lightRed}>Uncertainty</font></b></div>
 
                 <div style={infoBlockStyle}>
                     <div style={textStyle}>
