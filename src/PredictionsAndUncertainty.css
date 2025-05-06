@@ -1,0 +1,76 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: #f9f6f4;
+    color: #333;
+}
+
+.page-wrapper {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-title .green {
+    color: #75b855;
+}
+
+.header-title .red {
+    color: #db6161;
+}
+
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.person-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.person-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person-info {
+    flex: 1;
+}
+
+.person-info a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.person-info a:hover {
+    text-decoration: underline;
+}
+
+.important {
+    color: #ad3838;
+    font-weight: bold;
+}

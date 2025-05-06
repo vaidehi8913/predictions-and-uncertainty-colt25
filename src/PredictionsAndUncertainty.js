@@ -207,20 +207,23 @@ class PredictionsAndUncertainty extends Component {
                         
                         <ul>
                             <li><i>Conformal Prediction</i>, which constructs statistically valid confidence 
-                            sets while using minimal assumptions on the data.   </li>
+                            sets while using minimal assumptions on the data,  </li>
 
                             <li><i>Algorithms with Predictions</i>, where algorithms have to decide whether 
-                            to rely on potentially untrusted predictions</li>
+                            to rely on potentially untrusted predictions,</li>
 
                             <li><i>Robust Statistics</i>, that develops methods that are robust to outliers 
-                            in the dataset, even in challenging high-dimensional settings</li>
+                            in the dataset, even in challenging high-dimensional settings,</li>
 
                             <li><i>Risk-Averse Decision Making</i>, which explicitly accounts for uncertainty 
-                            to enable safe (conservative) decisions.</li>
+                            to enable safe (conservative) decisions,</li>
+
+                            <li> and other approaches for estimating and propagating uncertainty 
+                            in statistical and algorithmic applications.</li>
                         </ul>
 
                         <div>These topics have each seen significant progress in recent years, and continue to be 
-                        active areas of research. At the same time, uncertainty quantification is of great practical 
+                        active areas of research. Uncertainty quantification is also of great practical 
                         importance in settings where reliability is essential. This workshop comes at an opportune 
                         moment to connect these separate topics, and improve the foundations of predictions and 
                         uncertainty. </div>
@@ -289,3 +292,78 @@ class PredictionsAndUncertainty extends Component {
 }
 
 export default PredictionsAndUncertainty; 
+
+
+// CHAT GPT CODE 
+// import React, { Component } from "react";
+// import './PredictionsAndUncertainty.css';
+// import AVimage from "./AV-profile.jpg";
+// import VSimage from "./VS-profile.jpg";
+// import JHimage from "./JH-profile.jpg";
+// import AltImage from "./profile-alt.png";
+
+
+// function Person({ img, personName, affiliation, homepage, bio }) {
+//     return (
+//         <div className="person-card">
+//             <img src={img} alt={personName} />
+//             <div className="person-info">
+//                 <div><a href={homepage}>{personName}</a>, {affiliation}</div>
+//                 <div>{bio}</div>
+//             </div>
+//         </div>
+//     );
+// }
+
+
+// class PredictionsAndUncertainty extends Component {
+//     render() {
+//         return (
+//             <div className="page-wrapper">
+//                 <header className="header">
+//                     <div className="header-title">
+//                         Workshop on <span className="green">Predictions</span> and <span className="red">Uncertainty</span>
+//                     </div>
+//                 </header>
+
+//                 <section className="section">
+//                     <h2>Venue</h2>
+//                     <p>First day of <a href="https://learningtheory.org/colt2025/">COLT 2025</a>: June 30, 2025 in Lyon, France</p>
+//                 </section>
+
+//                 <section className="section">
+//                     <h2>Overview</h2>
+//                     <p>
+//                         Predictions from machine learning systems are increasingly being used as inputs to downstream algorithms and
+//                         decision-making tasks...
+//                     </p>
+//                     <ul>
+//                         <li><i>Conformal Prediction</i> — builds valid confidence sets with minimal assumptions</li>
+//                         <li><i>Algorithms with Predictions</i> — chooses whether to rely on potentially untrusted predictions</li>
+//                         <li><i>Robust Statistics</i> — handles outliers and high-dimensional data</li>
+//                         <li><i>Risk-Averse Decision Making</i> — enables conservative, safe decisions</li>
+//                     </ul>
+//                 </section>
+
+//                 <section className="section">
+//                     <h2>Program</h2>
+//                     <p>We are inviting submissions for our poster session...</p>
+//                     <p className="important">
+//                         Poster submission form: <a href="https://forms.gle/3BGYKZbR68k6tbS88">here</a><br />
+//                         Deadline: May 26, 2025 AoE<br />
+//                         Notification: June 1, 2025
+//                     </p>
+//                 </section>
+
+//                 <section className="section">
+//                     <h2>Organizers</h2>
+//                     <Person personName="Jessica Hullman" homepage="http://users.eecs.northwestern.edu/~jhullman/" affiliation="Northwestern University" img={JHimage} bio="Jessica is Ginni Rometty Professor..." />
+//                     <Person personName="Vaidehi Srinivas" homepage="https://vaidehi8913.github.io/" affiliation="Northwestern University" img={VSimage} bio="Vaidehi is a 4th year PhD student..." />
+//                     <Person personName="Aravindan Vijayaraghavan" homepage="https://users.cs.northwestern.edu/~aravindv/" affiliation="Northwestern University" img={AVimage} bio="Aravindan is an Associate Professor..." />
+//                 </section>
+//             </div>
+//         );
+//     }
+// }
+
+// export default PredictionsAndUncertainty;
