@@ -90,14 +90,39 @@ class PredictionsAndUncertainty extends Component {
 
     render() {
 
+        var lightWatermelonGreen = "#75b855";
+        var lightWatermelonRed = "#db6161";
+
+        var gradientBox = {
+            // marginTop: this.state.isDesktop ? "50px" : "10px",
+            // marginBottom: this.state.isDesktop ? "50px" : "10px",
+            // marginLeft: this.state.isDesktop ? "50px" : "10px",
+            // marginRight: this.state.isDesktop ? "50px" : "10px",
+            background: 'linear-gradient(to bottom, #75b855, #db6161)',
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center"
+        };
+
+        var innerWhiteBox = {
+            background: '#FFFFFF',
+            // marginTop: this.state.isDesktop ? "50px" : "10px",
+            marginLeft: this.state.isDesktop ? "50px" : "10px",
+            marginRight: this.state.isDesktop ? "50px" : "10px",
+            // marginBottom: this.state.isDesktop ? "50px" : "10px"
+            // padding: this.state.isDesktop ? "50px" : "10px", 
+            maxWidth: "750px"
+        };
+
         var topLevelWrapperStyle = {
             display: "flex",
             flexDirection: "column",
             justifyContent: "left",
             gap: "30px",
-            marginTop: this.state.isDesktop ? "50px" : "10px",
-            marginLeft: this.state.isDesktop ? "50px" : "10px",
-            marginRight: this.state.isDesktop ? "50px" : "10px"
+            // marginTop: this.state.isDesktop ? "50px" : "10px",
+            marginLeft: this.state.isDesktop ? "100px" : "10px",
+            marginRight: this.state.isDesktop ? "100px" : "10px",
+            background: '#FFFFFF'
         };
 
         var infoBlockStyle = {
@@ -106,7 +131,7 @@ class PredictionsAndUncertainty extends Component {
             justifyContent: "left",
             alignItems:"left",
             gap: "20px",
-            maxWidth: "750px"
+            // maxWidth: "750px"
         };
 
         var textStyle = {
@@ -120,11 +145,15 @@ class PredictionsAndUncertainty extends Component {
         var titleStyle = {
             // fontFamily: "'Open Sans', sans-serif",
             fontSize: "150%",
-            textAlign: "left"
+            textAlign: "center"
         };
 
         var spacerStyle = {
-            height: "200px"
+            height: this.state.isDesktop ? "50px" : "10px"
+        };
+
+        var smallSpacerStyle = {
+            height: this.state.isDesktop ? "10px" : "10px"
         };
 
         var importantInfoStyle = {
@@ -138,9 +167,15 @@ class PredictionsAndUncertainty extends Component {
         var JHimage = require("./JH-profile.jpg");
 
         return (
+            <div style={gradientBox}>
+            <div>
+                <div style={spacerStyle}/>
+            <div style={innerWhiteBox}>
             <div style={topLevelWrapperStyle}>
+
+                <div style={smallSpacerStyle}/>
                 
-                <div style={titleStyle}> Workshop on Predictions and Uncertainty</div>
+                <div style={titleStyle}><b>Workshop on <font color={lightWatermelonGreen}>Predictions</font> and <font color={lightWatermelonRed}>Uncertainty</font></b></div>
 
                 <div style={infoBlockStyle}>
                     <div style={textStyle}>
@@ -241,6 +276,10 @@ class PredictionsAndUncertainty extends Component {
 
                 <div style={spacerStyle}/>
 
+            </div>
+            </div>
+                <div style={spacerStyle}/>
+            </div>
             </div>
         );
     }
