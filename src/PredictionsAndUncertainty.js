@@ -521,7 +521,7 @@ class PredictionsAndUncertainty extends Component {
 
             <footer>
                 <div class="container">
-                <p>&copy; 2025 Predictions and Uncertainty Workshop</p>
+                {/*<p>&copy; 2025 Predictions and Uncertainty Workshop</p>*/}
                 </div>
             </footer>
         </div>
