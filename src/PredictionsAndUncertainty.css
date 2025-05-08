@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
     background-color: #f9f6f4;
@@ -73,4 +73,159 @@ ul {
 .important {
     color: #ad3838;
     font-weight: bold;
+} */
+
+/* <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Predictions and Uncertainty Workshop – COLT 2025</title>
+<style> */
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.container p + p {
+    margin-top: 10px;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+} */
+
+/* Header styles */
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section styles */
+section {
+  padding: 10px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #004080;
+}
+
+ul {
+    padding-inline-start: 50px;
+}
+
+.details ul {
+  list-style-type: none;
+}
+
+.details li {
+  margin-bottom: 10px;
+}
+
+.program ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+  
+.program li { 
+  margin-bottom: 10px;
+  color: red;
+}
+
+.about ul {
+  /* padding-inline-start: 50px; */
+  margin-top: 10px;
+}
+
+.about li {
+  margin-bottom: 10px;
+}
+
+/* Image section */
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+/* </style>
+</head> */
+/* <body> */
+  /* <header>
+    <div class="container">
+      <h1>Predictions and Uncertainty</h1>
+      <p>Workshop at COLT 2025</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <div class="container">
+        <h2>About the Workshop</h2>
+        <p>[Insert the original workshop description here.]</p>
+      </div>
+    </section>
+
+    <section class="details">
+      <div class="container">
+        <h2>Workshop Details</h2>
+        <ul>
+          <li><strong>Date:</strong> [Insert Date]</li>
+          <li><strong>Location:</strong> [Insert Location]</li>
+          <li><strong>Organizers:</strong> [Insert Organizer Names]</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="image">
+      <div class="container">
+        <img src="path-to-your-image.jpg" alt="Workshop Image" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Predictions and Uncertainty Workshop</p>
+    </div>
+  </footer>
+</body> */
+/* </html> */
