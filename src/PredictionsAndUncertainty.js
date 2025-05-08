@@ -483,6 +483,8 @@ class PredictionsAndUncertainty extends Component {
                     <li><strong>Poster acceptance notification:</strong> June 1, 2025 </li>
                     </ul>
 
+                    <p>Please feel free to reach out to <a href="mailto:vaidehi@u.northwestern.edu">Vaidehi</a> with any questions regarding the poster submission.</p>
+
                     <p>The schedule of invited talks is coming soon!</p>
                 </div>
                 </section>
