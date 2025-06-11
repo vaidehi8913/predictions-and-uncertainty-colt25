@@ -1,20 +1,35 @@
 {
   "files": {
     "main.css": "/predictions-and-uncertainty-colt25/static/css/main.792ec54f.css",
-    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.586abc5d.js",
+    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.45789e1a.js",
     "static/js/453.23eef986.chunk.js": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js",
-    "static/media/VS-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/VS-profile.f6c7ca18d6236af4d509.jpg",
-    "static/media/profile-alt.png": "/predictions-and-uncertainty-colt25/static/media/profile-alt.6d463c8cc47a3f93dd45.png",
-    "static/media/JH-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/JH-profile.ede95ee3001473876d0b.jpg",
-    "static/media/AV-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/AV-profile.2bc0e7d09b07e2c60dd3.jpg",
+    "static/media/sheshukova-profile.png": "/predictions-and-uncertainty-colt25/static/media/sheshukova-profile.7d0a6303388fd5bffb90.png",
+    "static/media/sornwanee-profile.png": "/predictions-and-uncertainty-colt25/static/media/sornwanee-profile.0ae54c80f5c8dd78cfff.png",
+    "static/media/braun-profile.png": "/predictions-and-uncertainty-colt25/static/media/braun-profile.a5c3bcd39044bef8b14c.png",
+    "static/media/hegazy-profile.png": "/predictions-and-uncertainty-colt25/static/media/hegazy-profile.e6c436215c356de4b090.png",
+    "static/media/berta-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/berta-profile.3f6138444c0b308c95d6.jpg",
+    "static/media/srinivas-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/srinivas-profile.f6c7ca18d6236af4d509.jpg",
+    "static/media/lin-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/lin-poster.2a372c8e498a76255cde.pdf",
+    "static/media/sheshukova-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/sheshukova-poster.e1781d8c52c3f6f388ae.pdf",
+    "static/media/hassani-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/hassani-profile.7c0d7a6d71745b6c5d65.jpg",
+    "static/media/peale-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/peale-profile.b61d0239f54809a07689.jpg",
+    "static/media/fujii-profile.png": "/predictions-and-uncertainty-colt25/static/media/fujii-profile.15b6114475a53cc4c5f3.png",
+    "static/media/profile-alt.jpg": "/predictions-and-uncertainty-colt25/static/media/profile-alt.cbaac69efc8876df9823.jpg",
+    "static/media/perdomo-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/perdomo-profile.9cdbc290e55ffdc03fa1.jpg",
+    "static/media/rossellini-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/rossellini-profile.23cbcb014bf84476bd03.jpg",
+    "static/media/bach-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/bach-profile.b2c800564cfcbf444bbf.jpg",
+    "static/media/lin-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/lin-profile.e30c055a98cf83f8e037.jpg",
+    "static/media/casacuberta-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/casacuberta-profile.e09d71717b4eda8d027b.jpg",
+    "static/media/hullman-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/hullman-profile.ede95ee3001473876d0b.jpg",
+    "static/media/vijayaraghavan-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/vijayaraghavan-profile.2bc0e7d09b07e2c60dd3.jpg",
     "static/media/logo.svg": "/predictions-and-uncertainty-colt25/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/predictions-and-uncertainty-colt25/index.html",
     "main.792ec54f.css.map": "/predictions-and-uncertainty-colt25/static/css/main.792ec54f.css.map",
-    "main.586abc5d.js.map": "/predictions-and-uncertainty-colt25/static/js/main.586abc5d.js.map",
+    "main.45789e1a.js.map": "/predictions-and-uncertainty-colt25/static/js/main.45789e1a.js.map",
     "453.23eef986.chunk.js.map": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.792ec54f.css",
-    "static/js/main.586abc5d.js"
+    "static/js/main.45789e1a.js"
   ]
 }
