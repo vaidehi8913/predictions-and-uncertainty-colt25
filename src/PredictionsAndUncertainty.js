@@ -291,6 +291,7 @@ class PredictionsAndUncertainty extends Component {
         var casacubertaImage = require("./casacuberta-profile.jpg")
         var pealeImage = require("./peale-profile.jpg")
         var perdomoImage = require("./perdomo-profile.jpg")
+        var eliasImage = require("./elias-profile.png")
 
 
 
@@ -440,10 +441,25 @@ class PredictionsAndUncertainty extends Component {
                                 hideBio={true}/>
 
                         <Person personName="Marek Eli&aacute;s&#780;"
-                                homepage="https://elias.ba30.eu/"
+                                homepage="https://elias.id"
                                 affiliation="Bocconi University, Computer Science"
-                                title="Perspectives from Algorithms with Predictions"
-                                abstract="Coming soon..."/>
+                                title="Algorithms with predictions: learning challenges"
+                                abstract="Algorithms with predictions is a recent trend in algorithm design, where the algorithm is given access 
+                                to a source of untrusted predictions. The goal is to use these predictions to surpass overly pessimistic worst-case 
+                                lower bounds.  In this research line, algorithms aim to satisfy three desirable properties:
+                                (1) consistency: algorithm should achieve excellent performance with perfect predictions
+                                (2) robustness: even with very bad predictions, the algorithm's performance should not be much worse than what is 
+                                achievable without predictions
+                                (3) smoothness: the performance of the algorithm should smoothly deteriorate from the consistency bound to the robustness 
+                                bound as the quality of the predictions decreases.
+                                This talk will highlight learning challenges arising in Algorithms with Predictions especially in producing predictions, 
+                                robustification, and adapting to multiple possible scenarios."
+                                bio="Marek Elias obtained his PhD from TU Eindhoven under supervision of Nikhil Bansal. He spent two years at EPFL as a 
+                                postdoctoral researcher supervised by Michael Kapralov, and one year at CWI in Amsterdam supervised by Nikhil Bansal. 
+                                Since 2021, he is an assistant professor at Bocconi University in Milan. His favorite research topics are online algorithms
+                                and algorithms with predictions."
+                                img={eliasImage}
+                                hideBio={true}/>
 
                         <Person personName="Pricewill Okoroafor"
                                 homepage="https://pokoroafor.github.io/"
