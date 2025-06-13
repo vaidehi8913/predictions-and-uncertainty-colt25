@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/predictions-and-uncertainty-colt25/static/css/main.792ec54f.css",
-    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.45789e1a.js",
+    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.d6efa09f.js",
     "static/js/453.23eef986.chunk.js": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js",
     "static/media/sheshukova-profile.png": "/predictions-and-uncertainty-colt25/static/media/sheshukova-profile.7d0a6303388fd5bffb90.png",
     "static/media/sornwanee-profile.png": "/predictions-and-uncertainty-colt25/static/media/sornwanee-profile.0ae54c80f5c8dd78cfff.png",
@@ -14,6 +14,7 @@
     "static/media/hassani-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/hassani-profile.7c0d7a6d71745b6c5d65.jpg",
     "static/media/peale-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/peale-profile.b61d0239f54809a07689.jpg",
     "static/media/fujii-profile.png": "/predictions-and-uncertainty-colt25/static/media/fujii-profile.15b6114475a53cc4c5f3.png",
+    "static/media/elias-profile.png": "/predictions-and-uncertainty-colt25/static/media/elias-profile.a3179b8746ec3d35c3fa.png",
     "static/media/profile-alt.jpg": "/predictions-and-uncertainty-colt25/static/media/profile-alt.cbaac69efc8876df9823.jpg",
     "static/media/perdomo-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/perdomo-profile.9cdbc290e55ffdc03fa1.jpg",
     "static/media/rossellini-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/rossellini-profile.23cbcb014bf84476bd03.jpg",
@@ -25,11 +26,11 @@
     "static/media/logo.svg": "/predictions-and-uncertainty-colt25/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/predictions-and-uncertainty-colt25/index.html",
     "main.792ec54f.css.map": "/predictions-and-uncertainty-colt25/static/css/main.792ec54f.css.map",
-    "main.45789e1a.js.map": "/predictions-and-uncertainty-colt25/static/js/main.45789e1a.js.map",
+    "main.d6efa09f.js.map": "/predictions-and-uncertainty-colt25/static/js/main.d6efa09f.js.map",
     "453.23eef986.chunk.js.map": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.792ec54f.css",
-    "static/js/main.45789e1a.js"
+    "static/js/main.d6efa09f.js"
   ]
 }
