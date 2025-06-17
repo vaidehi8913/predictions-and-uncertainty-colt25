@@ -292,6 +292,7 @@ class PredictionsAndUncertainty extends Component {
         var pealeImage = require("./peale-profile.jpg")
         var perdomoImage = require("./perdomo-profile.jpg")
         var eliasImage = require("./elias-profile.png")
+        var okoroaforImage = require("./okoroafor-profile.png")
 
 
 
@@ -465,7 +466,8 @@ class PredictionsAndUncertainty extends Component {
                                 homepage="https://pokoroafor.github.io/"
                                 affiliation="Cornell University, Computer Science"
                                 title="Perspectives from Calibration"
-                                abstract="Coming soon..."/>
+                                abstract="Coming soon..."
+                                img={okoroaforImage}/>
                     
                     </div>
 
@@ -647,6 +649,24 @@ class PredictionsAndUncertainty extends Component {
                             rigorous confidence intervals for bagging estimators applicable to general function classes. These derived intervals 
                             provide a theoretically grounded method for uncertainty quantification without restrictive assumptions on the underlying 
                             data-generating process."
+                            hideInfo={true}/>
+
+                    <Person personName="Princewill Okoroafor"
+                            affiliation="Cornell University" 
+                            homepage="pokoroafor.github.io"
+                            title="Near-Optimal Algorithms for Omniprediction"
+                            abstract="Omnipredictors are simple prediction functions that encode loss-minimizing predictions with respect to a 
+                            hypothesis class H, simultaneously for every loss function within a class of losses L. In this work, we give near-optimal 
+                            learning algorithms for omniprediction, in both the online and offline settings. To begin, we give an oracle-efficient 
+                            online learning algorithm that achieves (L,H)-omniprediction with O(\sqrt{T \log |H|}) regret for any class of Lipschitz 
+                            loss functions. Quite surprisingly, this regret bound matches the optimal regret for minimization of a single loss 
+                            function (up to a \sqrt{\log(T)} factor). Given this online algorithm, we develop an online-to-offline conversion that 
+                            achieves near-optimal complexity across a number of measures. In particular, for all bounded loss functions within the 
+                            class of Bounded Variation losses  (which include all convex, all Lipschitz, and all proper losses) and any 
+                            (possibly-infinite) H, we obtain an offline learning algorithm that, leveraging an (offline) ERM oracle and m samples 
+                            from D, returns an efficient (L,H)-omnipredictor whose error scales near-linearly in the Rademacher complexity of the 
+                            class of all binary threshold functions on H. Based on joint work with Robert Kleinberg and Michael P. Kim"
+                            img={okoroaforImage}
                             hideInfo={true}/>
 
                     <Person personName="Keonvin Park" 
