@@ -462,12 +462,25 @@ class PredictionsAndUncertainty extends Component {
                                 img={eliasImage}
                                 hideBio={true}/>
 
-                        <Person personName="Pricewill Okoroafor"
+                        <Person personName="Princewill Okoroafor"
                                 homepage="https://pokoroafor.github.io/"
                                 affiliation="Cornell University, Computer Science"
-                                title="Perspectives from Calibration"
-                                abstract="Coming soon..."
-                                img={okoroaforImage}/>
+                                title="Calibration and Trustworthy Decision Making"
+                                abstract="A forecast is considered trustworthy if users can act on its predicted probabilities as though they were the true 
+                                underlying distributions from which outcomes are drawn, without incurring regret. Calibration encompasses a range of formal 
+                                measures that capture this notion of trustworthiness in probabilistic forecasts. In this talk, we will explore different 
+                                measures of calibration, from stronger measures which ensure reliable results for the users but are computationally and 
+                                statistically difficult to achieve, to weaker notions that are easier to achieve but offer less reliability. We will 
+                                arrive at an intermediate notion that is achievable using no more samples or computation than the easiest statistical 
+                                learning tasks, while providing guarantees for downstream decision makers that are, in many cases, as powerful as the 
+                                strongest notions of calibration."
+                                bio="Princewill Okoroafor is currently completing his final year as a Computer Science PhD student at Cornell University, 
+                                advised by Robert Kleinberg. He is also an incoming Postdoc at Harvard SEAS hosted by Cynthia Dwork. His research centers 
+                                around designing online and statistical learning algorithms that satisfy desirable fairness guarantees, such as calibration, 
+                                and are robust to deviations in practice. Princewill obtained his BSc from Harvey Mudd College, majoring in CS and Math. 
+                                His research has been supported by the Cornell CIS-Linkedin Fellowship."
+                                img={okoroaforImage}
+                                hideBio={true}/>
                     
                     </div>
 
