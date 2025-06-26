@@ -304,7 +304,8 @@ class PredictionsAndUncertainty extends Component {
                 <div class="container">
                 <h1>Predictions and Uncertainty</h1>
                 <h2>Workshop at <a href="https://learningtheory.org/colt2025/" style={{color: "lightgreen"}}>COLT 2025</a> in Lyon, France</h2>
-                <h2>June 30, 2025, 2:00-5:30pm</h2>
+                <h2>Monday, June 30, 2025, 2:00-5:30pm</h2>
+                <h2><a href="https://colt2025.univ-lyon1.fr/en/pages/colt-2025-venue" style={{color: "lightgreen"}}>Mérieux Amphitheater</a>, ENS Lyon</h2>
                 </div>
             </header>
 
@@ -359,6 +360,9 @@ class PredictionsAndUncertainty extends Component {
                 <section class="program">
                 <div class="container">
                     <h2>Program</h2>
+
+                    <p>The workshop will be held on Monday, June 30, 2025, in the <a href="https://colt2025.univ-lyon1.fr/en/pages/colt-2025-venue">Mérieux Amphitheater</a> at the 
+                    ENS, Lyon.  The full schedule of COLT 2025 workshops can be found <a href="https://learningtheory.org/colt2025/schedule.html?Mon%20Jun%2030%202025">here</a>.</p>
 
                     <p><b>2:00-2:10pm</b> <i>Aravindan Vijayaraghavan</i>: Opening remarks</p>
                     <p><b>2:15-2:45pm</b> <i>Francis Bach</i>: Recent advances in conformal prediction </p>
