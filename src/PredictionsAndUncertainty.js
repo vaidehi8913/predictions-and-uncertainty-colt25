@@ -293,6 +293,7 @@ class PredictionsAndUncertainty extends Component {
         var perdomoImage = require("./perdomo-profile.jpg")
         var eliasImage = require("./elias-profile.png")
         var okoroaforImage = require("./okoroafor-profile.png")
+        var tanImage = require("./tan-profile.jpeg")
 
 
 
@@ -303,7 +304,7 @@ class PredictionsAndUncertainty extends Component {
                 <div class="container">
                 <h1>Predictions and Uncertainty</h1>
                 <h2>Workshop at <a href="https://learningtheory.org/colt2025/" style={{color: "lightgreen"}}>COLT 2025</a> in Lyon, France</h2>
-                <h2>June 30, 2025, 2:00-5:00pm</h2>
+                <h2>June 30, 2025, 2:00-5:30pm</h2>
                 </div>
             </header>
 
@@ -357,6 +358,35 @@ class PredictionsAndUncertainty extends Component {
 
                 <section class="program">
                 <div class="container">
+                    <h2>Program</h2>
+
+                    <p><b>2:00-2:10pm</b> <i>Aravindan Vijayaraghavan</i>: Opening remarks</p>
+                    <p><b>2:15-2:45pm</b> <i>Francis Bach</i>: Recent advances in conformal prediction </p>
+                    <p><b>2:50-3:15pm</b> <i>Vaidehi Srinivas</i>: Estimating High-dimensional Confidence Sets: A Robust Estimation Perspective </p>
+                    <p><b>3:15-4:00pm</b> Posters and Coffee</p>
+                    <p><b>4:00-4:30pm</b> <i>Hamed Hassani</i>: Decision Theoretic Foundations of Conformal Predictions: Optimal Uncertainty Quantification 
+                            for Risk-Averse Agents</p>
+                    <p><b>4:35-5:00pm</b> <i>Marek Eli&aacute;s&#780;</i>: Algorithms with predictions: learning challenges</p>
+                    <p><b>5:05-5:30pm</b> <i>Princewill Okoroafor</i>: Calibration and Trustworthy Decision Making</p>
+
+                    {/* <p> We are inviting submissions for our poster session.  Submissions do not necessarily have 
+                        to be related to one of the four highlighted areas in the overview, but should include a short 
+                        description of how the work relates to quantifying the uncertainty of untrusted/unreliable 
+                        predictions.</p>
+                    
+                    <ul>
+                    <li><strong>Poster submission form:</strong> <a href="https://forms.gle/3BGYKZbR68k6tbS88">here</a> </li>
+                    <li><strong>Poster submission deadline:</strong> May 25, 2025 AoE </li>
+                    <li><strong>Poster acceptance notification:</strong> June 1, 2025 </li>
+                    </ul>
+
+                    <p>Please feel free to reach out to <a href="mailto:vaidehi@u.northwestern.edu">vaidehi@u.northwestern.edu</a> with any questions regarding poster submissions.</p>
+
+                    <p>The schedule of invited talks is coming soon!</p> */}
+                
+                </div>
+
+                <div class="container">
                     {/* <h2>Program</h2> */}
 
                     {/* <p> We are inviting submissions for our poster session.  Submissions do not necessarily have 
@@ -401,88 +431,96 @@ class PredictionsAndUncertainty extends Component {
                             between 2021 and 2023; he was co-editor-in-chief of the Journal of Machine Learning Research between 2018 and 2023."
                             hideBio={true}/>
 
-                        <Person personName="Chao Gao"
-                                homepage="https://www.stat.uchicago.edu/~chaogao/"
-                                affiliation="University of Chicago, Statistics"
-                                title="Connections to Robust Statistics"
-                                abstract="Coming soon..."/>
+                    <Person personName="Marek Eli&aacute;s&#780;"
+                            homepage="https://elias.id"
+                            affiliation="Bocconi University, Computer Science"
+                            title="Algorithms with predictions: learning challenges"
+                            abstract="Algorithms with predictions is a recent trend in algorithm design, where the algorithm is given access 
+                            to a source of untrusted predictions. The goal is to use these predictions to surpass overly pessimistic worst-case 
+                            lower bounds.  In this research line, algorithms aim to satisfy three desirable properties:
+                            (1) consistency: algorithm should achieve excellent performance with perfect predictions
+                            (2) robustness: even with very bad predictions, the algorithm's performance should not be much worse than what is 
+                            achievable without predictions
+                            (3) smoothness: the performance of the algorithm should smoothly deteriorate from the consistency bound to the robustness 
+                            bound as the quality of the predictions decreases.
+                            This talk will highlight learning challenges arising in Algorithms with Predictions especially in producing predictions, 
+                            robustification, and adapting to multiple possible scenarios."
+                            bio="Marek Elias obtained his PhD from TU Eindhoven under supervision of Nikhil Bansal. He spent two years at EPFL as a 
+                            postdoctoral researcher supervised by Michael Kapralov, and one year at CWI in Amsterdam supervised by Nikhil Bansal. 
+                            Since 2021, he is an assistant professor at Bocconi University in Milan. His favorite research topics are online algorithms
+                            and algorithms with predictions."
+                            img={eliasImage}
+                            hideBio={true}/>
 
-                        <Person personName="Hamed Hassani"
-                                homepage="https://www.seas.upenn.edu/~hassani/"
-                                img={hassaniImage}
-                                affiliation="University of Pennsylvania, Electrical and Systems Engineering"
-                                title="Decision Theoretic Foundations of Conformal Predictions: Optimal Uncertainty Quantification 
-                                for Risk-Averse Agents"
-                                abstract="A fundamental question in data-driven decision making is how to quantify the uncertainty of 
-                                predictions in ways that can usefully inform downstream action. This interface between prediction uncertainty 
-                                and decision-making is especially important in risk-sensitive domains, such as medicine. In this talk, I will 
-                                explain our recent efforts to develop decision-theoretic foundations that connect uncertainty quantification 
-                                using prediction sets with risk-averse decision-making. Specifically, I aim to answer three fundamental 
-                                questions: (1) What is the correct notion of uncertainty quantification for risk-averse decision makers? I 
-                                will show that prediction sets are optimal for decision makers who wish to optimize their value at risk. (2) 
-                                What is the optimal policy that a risk averse decision maker should use to map prediction sets to actions? It 
-                                turns out that a simple max-min decision policy is optimal for risk-averse decision makers. Finally, (3) How 
-                                can we derive prediction sets that are optimal for such decision makers? I will provide an exact 
-                                characterization in the population regime and a distribution free finite-sample construction. Answering these 
-                                questions naturally leads to a practical algorithm, termed Risk-Averse Calibration (RAC), which follows a 
-                                provably optimal design for deriving action policies from predictions. I will conclude by describing the 
-                                implications of these results along with several future directions."
-                                bio="Hamed Hassani is currently an associate professor of the Electrical and Systems Engineering Department, 
-                                the Computer and Information Systems Department, and the Department of Statistics and Data Science at the 
-                                University of Pennsylvania. Prior to that, he was a research fellow at Simons Institute for the Theory of 
-                                Computing (UC Berkeley) affiliated with the program of Foundations of Machine Learning, and a postdoctoral 
-                                researcher at the Institute of Machine Learning at ETH Zurich. He received a Ph.D. degree in Computer and 
-                                Communication Sciences from EPFL, Lausanne. He is the recipient of the 2014 IEEE Information Theory Society 
-                                Thomas M. Cover Dissertation Award, 2015 IEEE International Symposium on Information Theory Student Paper 
-                                Award, 2017 Simons- Berkeley Fellowship, 2020 Air Force Office of Scientific Research (AFOSR) Young Investigator 
-                                Award, 2020 National Science Foundation (NSF) CAREER Award, 2020 Intel Rising Star award, the distinguished 
-                                lecturer of the IEEE Information Society in 2022-23, and the 2023 IEEE Communications Society & Information 
-                                theory Society Joint Paper Award. Moreover, he was selected as the recipient of the 2023 IEEE Information Theory 
-                                Society&apos;s James L. Massey Research and Teaching Award for Young Scholars."
-                                hideBio={true}/>
+                    <Person personName="Hamed Hassani"
+                            homepage="https://www.seas.upenn.edu/~hassani/"
+                            img={hassaniImage}
+                            affiliation="University of Pennsylvania, Electrical and Systems Engineering"
+                            title="Decision Theoretic Foundations of Conformal Predictions: Optimal Uncertainty Quantification 
+                            for Risk-Averse Agents"
+                            abstract="A fundamental question in data-driven decision making is how to quantify the uncertainty of 
+                            predictions in ways that can usefully inform downstream action. This interface between prediction uncertainty 
+                            and decision-making is especially important in risk-sensitive domains, such as medicine. In this talk, I will 
+                            explain our recent efforts to develop decision-theoretic foundations that connect uncertainty quantification 
+                            using prediction sets with risk-averse decision-making. Specifically, I aim to answer three fundamental 
+                            questions: (1) What is the correct notion of uncertainty quantification for risk-averse decision makers? I 
+                            will show that prediction sets are optimal for decision makers who wish to optimize their value at risk. (2) 
+                            What is the optimal policy that a risk averse decision maker should use to map prediction sets to actions? It 
+                            turns out that a simple max-min decision policy is optimal for risk-averse decision makers. Finally, (3) How 
+                            can we derive prediction sets that are optimal for such decision makers? I will provide an exact 
+                            characterization in the population regime and a distribution free finite-sample construction. Answering these 
+                            questions naturally leads to a practical algorithm, termed Risk-Averse Calibration (RAC), which follows a 
+                            provably optimal design for deriving action policies from predictions. I will conclude by describing the 
+                            implications of these results along with several future directions."
+                            bio="Hamed Hassani is currently an associate professor of the Electrical and Systems Engineering Department, 
+                            the Computer and Information Systems Department, and the Department of Statistics and Data Science at the 
+                            University of Pennsylvania. Prior to that, he was a research fellow at Simons Institute for the Theory of 
+                            Computing (UC Berkeley) affiliated with the program of Foundations of Machine Learning, and a postdoctoral 
+                            researcher at the Institute of Machine Learning at ETH Zurich. He received a Ph.D. degree in Computer and 
+                            Communication Sciences from EPFL, Lausanne. He is the recipient of the 2014 IEEE Information Theory Society 
+                            Thomas M. Cover Dissertation Award, 2015 IEEE International Symposium on Information Theory Student Paper 
+                            Award, 2017 Simons- Berkeley Fellowship, 2020 Air Force Office of Scientific Research (AFOSR) Young Investigator 
+                            Award, 2020 National Science Foundation (NSF) CAREER Award, 2020 Intel Rising Star award, the distinguished 
+                            lecturer of the IEEE Information Society in 2022-23, and the 2023 IEEE Communications Society & Information 
+                            theory Society Joint Paper Award. Moreover, he was selected as the recipient of the 2023 IEEE Information Theory 
+                            Society&apos;s James L. Massey Research and Teaching Award for Young Scholars."
+                            hideBio={true}/>
 
-                        <Person personName="Marek Eli&aacute;s&#780;"
-                                homepage="https://elias.id"
-                                affiliation="Bocconi University, Computer Science"
-                                title="Algorithms with predictions: learning challenges"
-                                abstract="Algorithms with predictions is a recent trend in algorithm design, where the algorithm is given access 
-                                to a source of untrusted predictions. The goal is to use these predictions to surpass overly pessimistic worst-case 
-                                lower bounds.  In this research line, algorithms aim to satisfy three desirable properties:
-                                (1) consistency: algorithm should achieve excellent performance with perfect predictions
-                                (2) robustness: even with very bad predictions, the algorithm's performance should not be much worse than what is 
-                                achievable without predictions
-                                (3) smoothness: the performance of the algorithm should smoothly deteriorate from the consistency bound to the robustness 
-                                bound as the quality of the predictions decreases.
-                                This talk will highlight learning challenges arising in Algorithms with Predictions especially in producing predictions, 
-                                robustification, and adapting to multiple possible scenarios."
-                                bio="Marek Elias obtained his PhD from TU Eindhoven under supervision of Nikhil Bansal. He spent two years at EPFL as a 
-                                postdoctoral researcher supervised by Michael Kapralov, and one year at CWI in Amsterdam supervised by Nikhil Bansal. 
-                                Since 2021, he is an assistant professor at Bocconi University in Milan. His favorite research topics are online algorithms
-                                and algorithms with predictions."
-                                img={eliasImage}
-                                hideBio={true}/>
+                    <Person personName="Princewill Okoroafor"
+                            homepage="https://pokoroafor.github.io/"
+                            affiliation="Cornell University, Computer Science"
+                            title="Calibration and Trustworthy Decision Making"
+                            abstract="A forecast is considered trustworthy if users can act on its predicted probabilities as though they were the true 
+                            underlying distributions from which outcomes are drawn, without incurring regret. Calibration encompasses a range of formal 
+                            measures that capture this notion of trustworthiness in probabilistic forecasts. In this talk, we will explore different 
+                            measures of calibration, from stronger measures which ensure reliable results for the users but are computationally and 
+                            statistically difficult to achieve, to weaker notions that are easier to achieve but offer less reliability. We will 
+                            arrive at an intermediate notion that is achievable using no more samples or computation than the easiest statistical 
+                            learning tasks, while providing guarantees for downstream decision makers that are, in many cases, as powerful as the 
+                            strongest notions of calibration."
+                            bio="Princewill Okoroafor is currently completing his final year as a Computer Science PhD student at Cornell University, 
+                            advised by Robert Kleinberg. He is also an incoming Postdoc at Harvard SEAS hosted by Cynthia Dwork. His research centers 
+                            around designing online and statistical learning algorithms that satisfy desirable fairness guarantees, such as calibration, 
+                            and are robust to deviations in practice. Princewill obtained his BSc from Harvey Mudd College, majoring in CS and Math. 
+                            His research has been supported by the Cornell CIS-Linkedin Fellowship."
+                            img={okoroaforImage}
+                            hideBio={true}/>
 
-                        <Person personName="Princewill Okoroafor"
-                                homepage="https://pokoroafor.github.io/"
-                                affiliation="Cornell University, Computer Science"
-                                title="Calibration and Trustworthy Decision Making"
-                                abstract="A forecast is considered trustworthy if users can act on its predicted probabilities as though they were the true 
-                                underlying distributions from which outcomes are drawn, without incurring regret. Calibration encompasses a range of formal 
-                                measures that capture this notion of trustworthiness in probabilistic forecasts. In this talk, we will explore different 
-                                measures of calibration, from stronger measures which ensure reliable results for the users but are computationally and 
-                                statistically difficult to achieve, to weaker notions that are easier to achieve but offer less reliability. We will 
-                                arrive at an intermediate notion that is achievable using no more samples or computation than the easiest statistical 
-                                learning tasks, while providing guarantees for downstream decision makers that are, in many cases, as powerful as the 
-                                strongest notions of calibration."
-                                bio="Princewill Okoroafor is currently completing his final year as a Computer Science PhD student at Cornell University, 
-                                advised by Robert Kleinberg. He is also an incoming Postdoc at Harvard SEAS hosted by Cynthia Dwork. His research centers 
-                                around designing online and statistical learning algorithms that satisfy desirable fairness guarantees, such as calibration, 
-                                and are robust to deviations in practice. Princewill obtained his BSc from Harvey Mudd College, majoring in CS and Math. 
-                                His research has been supported by the Cornell CIS-Linkedin Fellowship."
-                                img={okoroaforImage}
-                                hideBio={true}/>
-                    
-                    </div>
+                    <Person personName="Vaidehi Srinivas"
+                            homepage="https://vaidehi8913.github.io/"
+                            affiliation="Northwestern University, Computer Science"
+                            img={srinivasImage}
+                            title="Estimating High-dimensional Confidence Sets: A Robust Estimation Perspective"
+                            abstract="We study the problem of finding confidence sets for arbitrary distributions in high-dimensions.  This 
+                            problem has connections to robust high-dimensional estimation.  We establish these connections, and demonstrate 
+                            how techniques from one domain translate to the other. "
+                            bio="Vaidehi is a 4th year PhD student in Computer Science at Northwestern University, advised by Aravindan 
+                            Vijayaraghavan.  She has been working on 
+                            problems on predictions and uncertainty including work in conformal prediction in high-dimensional and 
+                            online settings, and in algorithms with predictions."
+                            hideBio={true}/>
+                
+                </div>
 
                     
                 <div class="container">
@@ -767,6 +805,25 @@ class PredictionsAndUncertainty extends Component {
                             homepage="https://tsornwanee.github.io"
                             title="Full Conformal Prediction under Stochastic Non-Conformity Measure"
                             img={sornwaneeImage} />
+
+                    <Person personName="Xizhi Tan"
+                            affiliation="Drexel University/Stanford University"
+                            homepage="https://xizhitan.github.io/"
+                            title="Learning-Augmented Mechanism Design"
+                            abstract="We present the model of learning-augmented mechanism design (or “mechanism design with 
+                            predictions”) as a powerful alternative to the traditional worst-case approach for designing and 
+                            analyzing mechanisms in strategic environments. In this model, mechanisms are enhanced with 
+                            machine-learned predictions regarding key aspects of the optimal solution, allowing them to 
+                            make more informed decisions. The goal is to achieve significantly stronger performance guarantees
+                            when these predictions are accurate (consistency), while still maintaining robust worst-case guarantees 
+                            even when predictions are unreliable (robustness). While much of the existing literature on algorithms 
+                            with predictions has focused on online decision-making, this thesis demonstrates that mechanism design 
+                            offers an especially promising and fertile ground for this paradigm. Across several canonical 
+                            domains—including facility location, combinatorial auctions, scheduling, decentralized resource 
+                            allocation, and metric social choice—we develops new mechanisms and analytical techniques that leverage 
+                            predictions to bridge the gap between optimistic, data-driven approaches and traditional robust guarantees."
+                            img={tanImage}
+                            hideInfo={true}/>        
 
                     <Person personName="Lukas Zierahn"
                             affiliation="CWI & Booking.com"
