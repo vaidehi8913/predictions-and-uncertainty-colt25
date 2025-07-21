@@ -1,7 +1,20 @@
 import React, { Component } from "react";
 import "./PredictionsAndUncertainty.css";
+
 import linPoster from "./lin-poster.pdf";
 import sheshukovaPoster from "./sheshukova-poster.pdf";
+import zierahnPoster from "./zierahn-poster.pdf";
+import gaoPoster from "./gao-poster.pdf";
+import pealePoster from "./peale-poster.pdf";
+import fujiiPoster from "./fujii-poster.pdf";
+import bertaPoster from "./berta-poster.pdf";
+import braunPoster from "./braun-poster.pdf";
+
+import bachSlides from "./bach-slides.pdf";
+import eliasSlides from "./elias-slides.pdf";
+import hassaniSlides from "./hassani-slides.pdf";
+import okoroaforSlides from "./okoroafor-slides.pdf";
+import srinivasSlides from "./srinivas-slides.pdf";
 
 class Person extends Component {
     /* PROPS:
@@ -205,6 +218,15 @@ class Person extends Component {
                 </div>
                 
                 <div style={buttonWrapperStyle}>
+                    {this.props.slides ? <a href={this.props.slides}> 
+                        <div style={posterButtonStyle}
+                            onMouseEnter={this.posterOnMouseEnter}
+                            onMouseLeave={this.posterOnMouseLeave}>
+                            slides
+                        </div></a> 
+                        : null
+                    }
+
                     {this.props.poster ? <a href={this.props.poster}> 
                         <div style={posterButtonStyle}
                             onMouseEnter={this.posterOnMouseEnter}
@@ -278,7 +300,6 @@ class PredictionsAndUncertainty extends Component {
         var hullmanImage = require("./hullman-profile.jpg");
         var bachImage = require("./bach-profile.jpg")
         var hassaniImage = require("./hassani-profile.jpg")
-
         var fujiiImage = require("./fujii-profile.png")
         var bertaImage = require("./berta-profile.jpg")
         var parkImage = require("./park-profile.jpg")
@@ -364,6 +385,8 @@ class PredictionsAndUncertainty extends Component {
                     <p>The workshop will be held on Monday, June 30, 2025, in the <a href="https://colt2025.univ-lyon1.fr/en/pages/colt-2025-venue">Mérieux Amphitheater</a> at the 
                     ENS, Lyon.  The full schedule of COLT 2025 workshops can be found <a href="https://learningtheory.org/colt2025/schedule.html?Mon%20Jun%2030%202025">here</a>.</p>
 
+                    <p>Abstracts, slides, and posters can be found with the presenter information below.</p>
+
                     <p><b>2:00-2:10pm</b> <i>Aravindan Vijayaraghavan</i>: Opening remarks</p>
                     <p><b>2:15-2:45pm</b> <i>Francis Bach</i>: Recent advances in conformal prediction </p>
                     <p><b>2:50-3:15pm</b> <i>Vaidehi Srinivas</i>: Estimating High-dimensional Confidence Sets: A Robust Estimation Perspective </p>
@@ -433,7 +456,8 @@ class PredictionsAndUncertainty extends Component {
                             Moreau prize in 2019. He was elected in 2020 at the French Academy of Sciences. In 2015, he was program co-chair 
                             of the International Conference in Machine learning (ICML), general chair in 2018, and president of its board 
                             between 2021 and 2023; he was co-editor-in-chief of the Journal of Machine Learning Research between 2018 and 2023."
-                            hideBio={true}/>
+                            hideBio={true}
+                            slides={bachSlides}/>
 
                     <Person personName="Marek Eli&aacute;s&#780;"
                             homepage="https://elias.id"
@@ -454,7 +478,8 @@ class PredictionsAndUncertainty extends Component {
                             Since 2021, he is an assistant professor at Bocconi University in Milan. His favorite research topics are online algorithms
                             and algorithms with predictions."
                             img={eliasImage}
-                            hideBio={true}/>
+                            hideBio={true}
+                            slides={eliasSlides}/>
 
                     <Person personName="Hamed Hassani"
                             homepage="https://www.seas.upenn.edu/~hassani/"
@@ -488,7 +513,8 @@ class PredictionsAndUncertainty extends Component {
                             lecturer of the IEEE Information Society in 2022-23, and the 2023 IEEE Communications Society & Information 
                             theory Society Joint Paper Award. Moreover, he was selected as the recipient of the 2023 IEEE Information Theory 
                             Society&apos;s James L. Massey Research and Teaching Award for Young Scholars."
-                            hideBio={true}/>
+                            hideBio={true}
+                            slides={hassaniSlides}/>
 
                     <Person personName="Princewill Okoroafor"
                             homepage="https://pokoroafor.github.io/"
@@ -508,7 +534,8 @@ class PredictionsAndUncertainty extends Component {
                             and are robust to deviations in practice. Princewill obtained his BSc from Harvey Mudd College, majoring in CS and Math. 
                             His research has been supported by the Cornell CIS-Linkedin Fellowship."
                             img={okoroaforImage}
-                            hideBio={true}/>
+                            hideBio={true}
+                            slides={okoroaforSlides}/>
 
                     <Person personName="Vaidehi Srinivas"
                             homepage="https://vaidehi8913.github.io/"
@@ -522,7 +549,8 @@ class PredictionsAndUncertainty extends Component {
                             Vijayaraghavan.  She has been working on 
                             problems on predictions and uncertainty including work in conformal prediction in high-dimensional and 
                             online settings, and in algorithms with predictions."
-                            hideBio={true}/>
+                            hideBio={true}
+                            slides={srinivasSlides}/>
                 
                 </div>
 
@@ -544,7 +572,8 @@ class PredictionsAndUncertainty extends Component {
                             reduced post hoc using standard techniques. Our method is architecture-agnostic and consistently enhances performance 
                             across a range of classification tasks. Based on joint work with David Holzmüller, Michael I. Jordan and Francis Bach."
                             img={bertaImage}
-                            hideInfo={true}/>
+                            hideInfo={true}
+                            poster={bertaPoster}/>
 
                     <Person personName="Sacha Braun"
                             affiliation="Inria"
@@ -557,7 +586,8 @@ class PredictionsAndUncertainty extends Component {
                             we achieve state-of-the-art performance on real-world datasets. Based on joint work with Liviu 
                             Aolaritei, Michael I. Jordan, and Francis Bach."
                             img={braunImage}
-                            hideInfo={true}/>     
+                            hideInfo={true}
+                            poster={braunPoster}/>     
 
                     <Person personName="Sílvia Casacuberta"
                             affiliation="University of Oxford"
@@ -595,7 +625,8 @@ class PredictionsAndUncertainty extends Component {
                             the predictions are inaccurate, performance is comparable to existing algorithms that do not use predictions. This presentation is based on 
                             joint work with Yuichi Yoshida (National Institute of Informatics)."
                             img={fujiiImage}
-                            hideInfo={true}/>
+                            hideInfo={true}
+                            poster={fujiiPoster}/>
 
                     <Person personName="Ben Gao"
                             affiliation="Laboratoire Hubert Curien"
@@ -614,7 +645,8 @@ class PredictionsAndUncertainty extends Component {
                              range of applications involving evolving data streams and non-stationary environments. We demonstrate 
                              the effectiveness of COL through its application to online learning of Koopman linear embeddings for 
                              non-linear dynamical systems."
-                             hideInfo={true}/>
+                             hideInfo={true}
+                             poster={gaoPoster}/>
 
                     <Person personName="Noah Golowich"
                             affiliation="MIT"
@@ -757,7 +789,8 @@ class PredictionsAndUncertainty extends Component {
                             demonstrate through experiments that our method produces meaningful uncertainty decompositions for image classification. 
                             Joint work with Gustaf Ahdritz, Aravind Gollakota, Parikshit Gopalan, and Udi Wieder. "
                             img={pealeImage}
-                            hideInfo={true}/>
+                            hideInfo={true}
+                            poster={pealePoster}/>
 
                     <Person personName="Juan Carlos Perdomo"
                             affiliation="Harvard"
@@ -840,7 +873,8 @@ class PredictionsAndUncertainty extends Component {
                             the Generalized Likelihood Ratio Test (GLRT) fails due to overfitting and we propose an alternative approach using 
                             importance weighted estimators. We prove an upper bound on the expected sample complexity under uniform sampling and also
                              show a lower bound in this setting, starting to characterize when learning is possible."
-                            hideInfo={true}/>
+                            hideInfo={true}
+                            poster={zierahnPoster}/>
 
                     
                 </div>
