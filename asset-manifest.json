@@ -1,25 +1,36 @@
 {
   "files": {
     "main.css": "/predictions-and-uncertainty-colt25/static/css/main.792ec54f.css",
-    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.2b432368.js",
+    "main.js": "/predictions-and-uncertainty-colt25/static/js/main.64b0d2c1.js",
     "static/js/453.23eef986.chunk.js": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js",
+    "static/media/hassani-slides.pdf": "/predictions-and-uncertainty-colt25/static/media/hassani-slides.9e801533dd6d06ec9466.pdf",
     "static/media/sheshukova-profile.png": "/predictions-and-uncertainty-colt25/static/media/sheshukova-profile.7d0a6303388fd5bffb90.png",
+    "static/media/berta-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/berta-poster.fd908ffbf0e6bb254ebb.pdf",
+    "static/media/peale-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/peale-poster.5bec1dd3edac6a80f087.pdf",
+    "static/media/okoroafor-slides.pdf": "/predictions-and-uncertainty-colt25/static/media/okoroafor-slides.ef7eab7e0f2e6cf6aa32.pdf",
     "static/media/sornwanee-profile.png": "/predictions-and-uncertainty-colt25/static/media/sornwanee-profile.0ae54c80f5c8dd78cfff.png",
+    "static/media/braun-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/braun-poster.69b527b0b6759f5c7edc.pdf",
     "static/media/braun-profile.png": "/predictions-and-uncertainty-colt25/static/media/braun-profile.a5c3bcd39044bef8b14c.png",
     "static/media/hegazy-profile.png": "/predictions-and-uncertainty-colt25/static/media/hegazy-profile.e6c436215c356de4b090.png",
     "static/media/berta-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/berta-profile.3f6138444c0b308c95d6.jpg",
+    "static/media/bach-slides.pdf": "/predictions-and-uncertainty-colt25/static/media/bach-slides.2a44f5ed4c4ddc1bebba.pdf",
     "static/media/srinivas-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/srinivas-profile.f6c7ca18d6236af4d509.jpg",
+    "static/media/srinivas-slides.pdf": "/predictions-and-uncertainty-colt25/static/media/srinivas-slides.8bf4746d6ca6acc0144e.pdf",
+    "static/media/gao-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/gao-poster.41ff411494c8f8314369.pdf",
     "static/media/okoroafor-profile.png": "/predictions-and-uncertainty-colt25/static/media/okoroafor-profile.7782a93160fe15a92ee4.png",
     "static/media/lin-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/lin-poster.2a372c8e498a76255cde.pdf",
     "static/media/sheshukova-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/sheshukova-poster.e1781d8c52c3f6f388ae.pdf",
     "static/media/tan-profile.jpeg": "/predictions-and-uncertainty-colt25/static/media/tan-profile.0379cdb7d3af52c19b9a.jpeg",
     "static/media/hassani-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/hassani-profile.7c0d7a6d71745b6c5d65.jpg",
+    "static/media/elias-slides.pdf": "/predictions-and-uncertainty-colt25/static/media/elias-slides.94f7b8a010ef898f37f4.pdf",
     "static/media/peale-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/peale-profile.b61d0239f54809a07689.jpg",
     "static/media/fujii-profile.png": "/predictions-and-uncertainty-colt25/static/media/fujii-profile.15b6114475a53cc4c5f3.png",
+    "static/media/zierahn-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/zierahn-poster.778123e88482c1912a75.pdf",
     "static/media/elias-profile.png": "/predictions-and-uncertainty-colt25/static/media/elias-profile.a3179b8746ec3d35c3fa.png",
     "static/media/profile-alt.jpg": "/predictions-and-uncertainty-colt25/static/media/profile-alt.cbaac69efc8876df9823.jpg",
     "static/media/perdomo-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/perdomo-profile.9cdbc290e55ffdc03fa1.jpg",
     "static/media/rossellini-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/rossellini-profile.23cbcb014bf84476bd03.jpg",
+    "static/media/fujii-poster.pdf": "/predictions-and-uncertainty-colt25/static/media/fujii-poster.029caa8189787cf975f2.pdf",
     "static/media/bach-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/bach-profile.b2c800564cfcbf444bbf.jpg",
     "static/media/lin-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/lin-profile.e30c055a98cf83f8e037.jpg",
     "static/media/casacuberta-profile.jpg": "/predictions-and-uncertainty-colt25/static/media/casacuberta-profile.e09d71717b4eda8d027b.jpg",
@@ -28,11 +39,11 @@
     "static/media/logo.svg": "/predictions-and-uncertainty-colt25/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/predictions-and-uncertainty-colt25/index.html",
     "main.792ec54f.css.map": "/predictions-and-uncertainty-colt25/static/css/main.792ec54f.css.map",
-    "main.2b432368.js.map": "/predictions-and-uncertainty-colt25/static/js/main.2b432368.js.map",
+    "main.64b0d2c1.js.map": "/predictions-and-uncertainty-colt25/static/js/main.64b0d2c1.js.map",
     "453.23eef986.chunk.js.map": "/predictions-and-uncertainty-colt25/static/js/453.23eef986.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.792ec54f.css",
-    "static/js/main.2b432368.js"
+    "static/js/main.64b0d2c1.js"
   ]
 }
